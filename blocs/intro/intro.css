@@ -1,0 +1,26 @@
+.intro {
+  flex-basis: calc(100% - 148px * 2);
+  display: flex;
+  flex-wrap: wrap;
+  padding: 92px 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    flex-basis: calc(100% - 48px * 2);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    flex-basis: calc(100% - 24px * 2);
+    padding: 88px 0;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .intro {
+    flex-basis: calc(100% - 16px * 2);
+    padding: 64px 0;
+  }
+}

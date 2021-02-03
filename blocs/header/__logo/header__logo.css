@@ -1,0 +1,10 @@
+.header__logo {
+  flex-basis: calc(100% - 77px);
+}
+
+@media screen and (max-width: 425px) {
+  .header__logo {
+    flex-basis: calc(100% - 62px);
+    height: 42px;
+  }
+}

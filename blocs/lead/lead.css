@@ -1,0 +1,19 @@
+.lead {
+  flex-basis: calc(100% - 148px * 2);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+}
+
+@media screen and (max-width: 1024px) {
+  .lead {
+    flex-basis: calc(100% - 48px * 2);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead {
+    flex-basis: calc(100%);
+  }
+}

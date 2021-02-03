@@ -1,0 +1,24 @@
+.content {
+  padding: 56px 0 92px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .content {
+    padding: 48px 0 92px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    padding: 48px 0 88px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .content {
+    padding: 48px 0 64px;
+  }
+}

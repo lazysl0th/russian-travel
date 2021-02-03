@@ -1,0 +1,11 @@
+.footer__menu {
+  flex-basis: 998px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 425px) {
+  .footer__menu {
+    flex-direction: column;
+  }
+}

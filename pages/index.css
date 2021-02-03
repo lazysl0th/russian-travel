@@ -1,0 +1,76 @@
+/*normalize*/
+@import "../vendor/normalize.css";
+/*inter.css*/
+@import "../vendor/inter.css";
+/*page*/
+@import "../blocs/page/page.css";
+/*header*/
+@import "../blocs/header/header.css";
+/*header__lang-link*/
+@import "../blocs/header/__logo/header__logo.css";
+/*header__lang-link*/
+@import "../blocs/header/__lang-link/header__lang-link.css";
+/*header__lang-link_active*/
+@import "../blocs/header/__lang-link/_active/header__lang-link_active.css";
+/*content*/
+@import "../blocs/content/content.css";
+/*lead*/
+@import "../blocs/lead/lead.css";
+/*lead__title*/
+@import "../blocs/lead/__title/lead__title.css";
+/*lead__subtitle*/
+@import "../blocs/lead/__subtitle/lead__subtitle.css";
+/*lead__image*/
+@import "../blocs/lead/__image/lead__image.css";
+/*lead__caption*/
+@import "../blocs/lead/__caption/lead__caption.css";
+/*intro*/
+@import "../blocs/intro/intro.css";
+/*intro__title*/
+@import "../blocs/intro/__title/intro__title.css";
+/*intro__text*/
+@import "../blocs/intro/__text/intro__text.css";
+/*intro__list*/
+@import "../blocs/intro/__list/intro__list.css";
+/*intro__span-accent*/
+@import "../blocs/intro/__span-accent/intro__span-accent.css";
+/*photo-grid*/
+@import "../blocs/photo-grid/photo-grid.css";
+/*photo-grid__item*/
+@import "../blocs/photo-grid/__item/photo-grid__item.css";
+/*photo-grid__image*/
+@import "../blocs/photo-grid/__image/photo-grid__image.css";
+/*places*/
+@import "../blocs/places/places.css";
+/*place*/
+@import "../blocs/places/place/place.css";
+/*place__title*/
+@import "../blocs/places/place/__title/place__title.css";
+/*place__image*/
+@import "../blocs/places/place/__image/place__image.css";
+/*place__website*/
+@import "../blocs/places/place/__website/place__website.css";
+/*place__url-heading*/
+@import "../blocs/places/place/__url-heading/place__url-heading.css";
+/*place__link*/
+@import "../blocs/places/place/__link/place__link.css";
+/*place__description*/
+@import "../blocs/places/place/__description/place__description.css";
+/*place__paragraph*/
+@import "../blocs/places/place/__paragraph/place__paragraph.css";
+/*cover*/
+@import "../blocs/cover/cover.css";
+/*cover__link*/
+@import "../blocs/cover/__link/cover__link.css";
+/*cover__title*/
+@import "../blocs/cover/__title/cover__title.css";
+/*cover__subtitle*/
+@import "../blocs/cover/__title/cover__subtitle.css";
+/*footer*/
+@import "../blocs/footer/footer.css";
+/*footer__menu*/
+@import "../blocs/footer/__menu/footer__menu.css";
+/*footer__link*/
+@import "../blocs/footer/__link/footer__link.css";
+/*footer__copyright*/
+@import "../blocs/footer/__copyright/footer__copyright.css";
