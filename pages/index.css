@@ -43,21 +43,21 @@
 /*places*/
 @import "../blocs/places/places.css";
 /*place*/
-@import "../blocs/places/place/place.css";
+@import "../blocs/place/place.css";
 /*place__title*/
-@import "../blocs/places/place/__title/place__title.css";
+@import "../blocs/place/__title/place__title.css";
 /*place__image*/
-@import "../blocs/places/place/__image/place__image.css";
+@import "../blocs/place/__image/place__image.css";
 /*place__website*/
-@import "../blocs/places/place/__website/place__website.css";
+@import "../blocs/place/__website/place__website.css";
 /*place__url-heading*/
-@import "../blocs/places/place/__url-heading/place__url-heading.css";
+@import "../blocs/place/__url-heading/place__url-heading.css";
 /*place__link*/
-@import "../blocs/places/place/__link/place__link.css";
+@import "../blocs/place/__link/place__link.css";
 /*place__description*/
-@import "../blocs/places/place/__description/place__description.css";
+@import "../blocs/place/__description/place__description.css";
 /*place__paragraph*/
-@import "../blocs/places/place/__paragraph/place__paragraph.css";
+@import "../blocs/place/__paragraph/place__paragraph.css";
 /*cover*/
 @import "../blocs/cover/cover.css";
 /*cover__link*/
