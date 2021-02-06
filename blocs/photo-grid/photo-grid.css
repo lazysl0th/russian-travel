@@ -3,13 +3,13 @@
 }
 
 @media screen and (max-width: 768px) {
-  .header {
+  .photo-grid {
     flex-basis: calc(100% - 24px * 2);
   }
 }
 
 @media screen and (max-width: 425px) {
-  .header {
+  .photo-grid {
     flex-basis: calc(100% - 16px * 2);
   }
 }

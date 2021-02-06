@@ -1,23 +1,10 @@
 .place__description {
+  flex-basis: 49%;
   order: 3;
-  flex-basis: calc(100% - 500px);
   margin-top: 48px;
-  flex-wrap: wrap;
 }
 
-@media screen and (max-width: 1024px) {
-  .place__description {
-    flex-basis: calc(100% - 472px);
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .place__description {
-    flex-basis: calc(100% - 368px);
-  }
-}
-
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 480px) {
   .place__description {
     flex-basis: 100%;
     margin: 32px 16px 0;

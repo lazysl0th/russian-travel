@@ -1,32 +1,53 @@
 .place__image {
-  width: 460px;
-  height: 460px;
-  object-fit: contain;
-  margin: 48px 40px 0 0;
+  background-size: cover;
+  flex-basis: 49%;
   order: 2;
+  max-width: 460px;
+  height: 0;
+  padding-bottom: 47%;
+  margin-top: 48px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
+
+.place:nth-of-type(1) .place__image {
+  background-image: url('../../../images/place-kosa.jpg');
+}
+
+.place:nth-of-type(2) .place__image {
+  background-image: url('../../../images/place-kolskiy.jpg');
+}
+
+.place:nth-of-type(3) .place__image {
+  background-image: url('../../../images/place-altai.jpg');
+}
+
+.place:nth-of-type(4) .place__image {
+  background-image: url('../../../images/place-baikal.jpg');
+}
+
+.place:nth-of-type(5) .place__image {
+  background-image: url('../../../images/place-kareliya.jpg');
+}
+
 
 @media screen and (max-width: 1024px) {
   .place__image {
-    width: 440px;
-    height: 440px;
-    margin-right: 32px;
+    max-width: 440px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place__image {
-    width: 340px;
-    height: 340px;
-    margin-right: 28px;
+    max-width: 340px;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 480px) {
   .place__image {
-    width: 320px;
-    height: 320px;
-    margin: 0;
+    margin-top: 32px;
+    flex-basis: 100%;
+    padding-bottom: 100%;
+    max-width: 100%;
   }
 }
-

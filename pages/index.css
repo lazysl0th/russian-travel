@@ -20,6 +20,8 @@
 @import "../blocs/lead/__title/lead__title.css";
 /*lead__subtitle*/
 @import "../blocs/lead/__subtitle/lead__subtitle.css";
+/*lead__figure*/
+@import "../blocs/lead/__figure/lead__figure.css";
 /*lead__image*/
 @import "../blocs/lead/__image/lead__image.css";
 /*lead__caption*/
@@ -65,7 +67,7 @@
 /*cover__title*/
 @import "../blocs/cover/__title/cover__title.css";
 /*cover__subtitle*/
-@import "../blocs/cover/__title/cover__subtitle.css";
+@import "../blocs/cover/__subtitle/cover__subtitle.css";
 /*footer*/
 @import "../blocs/footer/footer.css";
 /*footer__menu*/

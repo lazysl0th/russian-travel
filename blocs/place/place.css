@@ -3,6 +3,8 @@
   padding: 0 0 80px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
 }
 
 .place:last-of-type {
@@ -17,7 +19,6 @@
 
 @media screen and (max-width: 425px) {
   .place {
-
     padding-bottom: 50px;
   }
 }

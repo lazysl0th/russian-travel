@@ -2,22 +2,43 @@
   display: flex;
   position: relative;
   flex-basis: calc(100% - 48px * 2);
+  background-image: url('../../images/cover-background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 715px;
+}
+
+.cover::after {
+  display: block;
+  background-color: #2A2C2F;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.3;
+}
+.cover:hover::after {
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 1024px) {
   .cover {
     flex-basis: 100%;
+    min-height: 640px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover {
-    flex-basis: 100%;
+    min-height: 480px;
   }
 }
 
 @media screen and (max-width: 425px) {
   .cover {
-    flex-basis: 100%;
+    min-height: 200px;
   }
 }

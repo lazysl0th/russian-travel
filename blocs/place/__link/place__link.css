@@ -3,6 +3,7 @@
   font-size: 18px;
   line-height: 22px;
   margin-top: 12px;
+  display: inline-block;
 }
 
 .place__link:hover {
