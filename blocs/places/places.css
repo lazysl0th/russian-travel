@@ -21,7 +21,7 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .places {
     flex-basis: 100%;
     padding: 65px 0;

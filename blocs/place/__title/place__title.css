@@ -13,7 +13,7 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .place__title {
     flex-basis: 100%;
     font-size: 32px;
