@@ -43,7 +43,7 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 650px) {
   .place__image {
     margin-top: 32px;
     flex-basis: 100%;

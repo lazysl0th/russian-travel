@@ -4,7 +4,7 @@
   margin-top: 48px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 650px) {
   .place__description {
     flex-basis: 100%;
     margin: 32px 16px 0;

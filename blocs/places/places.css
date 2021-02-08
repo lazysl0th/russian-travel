@@ -8,7 +8,7 @@
   justify-content: center;
 }
 
-@media screen and (max-width: 1040px) {
+@media screen and (max-width: 1055px) {
   .places {
     flex-basis: calc(100% - 48px * 2);
   }
@@ -21,7 +21,7 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 480px) {
   .places {
     flex-basis: 100%;
     padding: 65px 0;

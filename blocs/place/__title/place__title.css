@@ -6,14 +6,14 @@
   flex-basis: 49%;
 }
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 855px) {
   .place__title {
     font-size: 42px;
     line-height: 46px;
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 650px) {
   .place__title {
     flex-basis: 100%;
     font-size: 32px;
